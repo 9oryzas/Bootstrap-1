@@ -1,0 +1,127 @@
+body{
+    background-color: #d4ff00;
+}
+body p,h1, h2{
+    color: aliceblue;
+}
+.navbar{
+    background-color: #0B2447;
+    /* border-bottom: 1px solid yellow; */
+}
+.navbar:hover{
+    transition: 0.8s;
+    border-bottom: 0.5px solid yellow;
+}
+.jumbotron{
+    /* border: 1px solid yellow; */
+    padding-top: 2rem;
+    background-color: #0B2447;
+    /* backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.about{
+    background-color:#19376D;
+}
+
+.nav-item a:hover{
+    text-shadow: 2px 2px 8px rgb(204, 255, 0);
+    transition: color 0.5s ease;
+}
+
+/* Neon effect styling */
+.neon-effect:hover{
+    transition: border 0.5s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 221, 0, 0.5), 
+                0 0 30px rgba(251, 255, 0, 0.5);
+}
+.projek{
+    margin-top: -1px;
+    background-color: #0B2447;
+    /* padding-bottom: 0; */
+    /* border: 1px solid yellow; */
+}
+
+#contact{
+    background-color: #19376D;
+    margin-top: -1px;
+}
+.card{
+    border: none;
+}
+
+.card-text{
+    color: #0B2447;
+}
+
+/* Gaya untuk scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Lebar scrollbar */
+    height: 12px; /* Tinggi scrollbar (untuk scrollbar horizontal) */
+  }
+  
+  /* Gaya untuk track scrollbar */
+  ::-webkit-scrollbar-track {
+    /* background: #000000; Warna latar belakang track */
+    background: #0B2447;
+    /* border-radius: 10px; Radius untuk membuat sudut melengkung */
+  }
+  
+  /* Gaya untuk handle (thumb) scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background-color: #d4ff00; /* Warna handle scrollbar */
+    border-radius: 10px; /*Radius untuk membuat sudut melengkung
+    /* border: 2px solid #ffffff; Border di sekitar handle scrollbar */
+  }
+
+.form-control:focus {
+  box-shadow: none; /* Menghapus bayangan */
+  outline: none; /* Menghapus outline */
+}
+.form-control:hover{
+    color: #212529;
+  background-color: #fff;
+  border-color: #f6ff00; /* Warna border saat input difokuskan */
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(251, 255, 0, 0.489); /* Efek bayangan */
+}
+  
+.footer{
+    background-color: #0B2447;
+    padding-bottom: 10px;
+    /* border: 1px solid yellow; */
+    height: 50vh;
+}
+i{
+    color: white;
+}
+.keith{
+    position: absolute;
+    left: 50px;
+    /* border: 1px solid yellow; */
+    a{
+        text-decoration: none;
+        color: #f6ff00;
+    }
+
+}
+
+section{
+    padding-top: 3.5rem;
+    /* border: 1px solid yellow; */
+}
+#galery{
+    /* padding: 0; */
+    /* border: 1px solid yellow; */
+    padding-top: 1px;
+    margin-top: -1px;
+}
+#galery{
+    background-color: #19376D; 
+    /* margin-top: -1px;  */
+
+}
+#galery .row > *{
+    padding: 0;
+}
